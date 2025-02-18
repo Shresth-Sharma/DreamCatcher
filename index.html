@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBToZ_HJ3OMYbiipBIGFFmJIWPvRVekTv4",
+            authDomain: "dream-catcher-9a8fc.firebaseapp.com",
+            databaseURL: "https://dream-catcher-9a8fc-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "dream-catcher-9a8fc",
+            storageBucket: "dream-catcher-9a8fc.firebasestorage.app",
+            messagingSenderId: "499067049335",
+            appId: "1:499067049335:web:6de89e1bb59d8947707d72"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Dream Catcher</title>
+</head>
+<body>
+    <center><h1>Dream Catcher</h1></center>
+    <div id="read">
+        <button id="writebt">Write</button>
+        <button id="fetch">Fetch</button>
+        <input type="date" id="readdate">
+        <select id="readcategory"></select>
+        <div id="readcontent">
+            
+        </div>
+    </div>
+    <div id="write">
+        <button id="readbt">Read</button>
+        <button id="createcategory">Create Category</button>
+        <input type="date" id="writedate">
+        <select id="writecategory"></select>
+        <textarea type="text" id="writetext"></textarea>
+        <button id="writesubmit">Record</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

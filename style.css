@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(255, 242, 219);
+    margin:0px 0px;
+}
+h1{
+    color:rgb(0, 48, 146);
+    margin:0px;
+    margin-top:1vh;
+    font-size:10vw;
+}
+button{
+    background-color: rgb(255, 171, 91);
+    color:rgb(0, 135, 158);
+    width:45vw;
+    height:10vw;
+    font-size:5vw;  
+    font-weight:600;
+    margin-left:2.5vw;
+    margin-top:2vh; 
+}
+#read{
+    display:none;
+}
+#writedate{
+    width:45vw;
+    margin-left:2.5vw;
+    font-size:4vw;
+    margin-top:1vh;
+    height:10vw;
+    border-width:0.1vw;
+    border-color:rgb(255, 171, 91);
+    color:rgb(0, 135, 158);
+}
+#writecategory{
+    width:45vw;
+    height:10vw;
+    margin-left:2.5vw;
+    font-size:4vw;
+    margin-top:1vh;
+    color:rgb(0, 135, 158);
+}
+#readdate{
+    width:45vw;
+    margin-left:2.5vw;
+    font-size:4vw;
+    margin-top:1vh;
+    height:10vw;
+    border-width:0.1vw;
+    border-color:rgb(255, 171, 91);
+    color:rgb(0, 135, 158);
+}
+#readcategory{
+    width:45vw;
+    height:10vw;
+    margin-left:2.5vw;
+    font-size:4vw;
+    margin-top:1vh;
+    color:rgb(0, 135, 158);
+}
+#writetext{
+    width:92vw;
+    margin-left:2.5vw;
+    height:65vh;
+    font-size:3vw;
+    color:rgb(255, 171, 91);
+    margin-top:1vh;
+}
+#writesubmit{
+    margin-left:23vw;
+}
+.readcontenttile{
+    border-radius:1vw;
+    width:92vw;
+    border-style:solid;
+    border-color:rgb(0, 48, 146);
+    margin-left:2.5vw;
+    margin-top:1.5vh;
+}
+h2{
+    font-size:5vw;
+    margin:0;
+    color:rgb(0, 48, 146);
+}
+  
+h3{
+    font-size:5vw;
+    margin:0;
+    margin-left:40vw;
+    margin-top:-4.5vh;
+    color:rgb(0, 48, 146);
+}
+.contentpara{
+    font-size:3vw;
+    margin:0;
+    margin-top:1vh;
+    color:rgb(0, 135, 158);
+}
